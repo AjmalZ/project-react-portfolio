@@ -1,0 +1,196 @@
+.projectGrid {
+    display: inline-grid;
+    grid-gap: 10px;
+    width: 100%;
+    background: #f1f1f3;
+}
+
+.center {
+    margin-top: 5%;
+}
+
+.projectWrap {
+    width: 337px;
+    display: grid;
+    padding-bottom: 10%;
+    justify-items: center;
+}
+
+.projectBox {
+    display: grid;
+    margin: 0 auto;
+    width: 350px;
+    height: 200px;
+}
+
+.overlay {
+    width: 350px;
+    height: 350px;
+    background: #173039;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    z-index: 1;
+    opacity: 90%;
+    transition: ease-in .5s;
+
+    &:hover {
+        opacity: 0;
+    }
+}
+
+.projectBackground {
+    width: 100%;
+    height: 200px;
+    background: #002F33;
+    display: flex;
+    position: relative;
+    border-radius: 20px;
+    margin: 0 auto;
+    top: -50%;
+}
+
+.overlayText {
+    color: white;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-weight: 600;
+
+    &:hover {
+        opacity: 0;
+    }
+}
+
+
+.titleContainer {
+    margin-top: 15%;
+    width: 350px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.projectTitle {
+    font-weight: 700;
+    margin-top: 15px;
+    color: black;
+
+    &:hover {
+        color: #489cb8;
+        ;
+    }
+}
+
+.projectDescription {
+    color: black;
+    font-weight: 400;
+
+    &:hover {
+        color: #489cb8;
+        ;
+    }
+}
+
+.tagContainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 350px;
+    margin-top: 15px;
+}
+
+.tag {
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 16px;
+    height: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.gitIcon {
+    height: 35px;
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    background-color: #181717;
+    outline: 3px #181717 solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.button .text {
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    transition: 400ms;
+}
+
+.button svg path {
+    transition: 400ms;
+}
+
+.button:hover {
+    background-color: transparent;
+}
+
+.button:hover .text {
+    color: #181717;
+}
+
+.button:hover svg path {
+    fill: #181717;
+}
+
+
+@media (min-width: 798px) {
+    .projectGrid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .projectWrap {
+        width: 100%;
+        justify-items: center;
+    }
+
+    .projectBox {
+        width: 350px;
+        height: 220px;
+    }
+
+    .overlay {
+        width: 350px;
+        height: 350px;
+    }
+
+    .projectBackground {
+        width: 350px;
+        height: 350px;
+    }
+}

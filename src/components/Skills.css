@@ -1,0 +1,60 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #e3dbd3;
+    padding-bottom: 30px;
+
+}
+
+.skills h2 {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 108px;
+    color: #733236;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.skillsBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skillh3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.skillsh3Red {
+    background: #EB5577;
+    width: fit-content;
+}
+
+.skillsh3LightBlue {
+    background: #2483E0;
+    width: fit-content;
+}
+
+.skillsh3Blue {
+    background: #0B24F5;
+    width: fit-content;
+}
+
+.skillsh3Green {
+    background: #6DB486;
+    width: fit-content;
+}
+
+.skillInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    line-height: 0;
+    font-weight: 400;
+    font-size: 22px;
+}
