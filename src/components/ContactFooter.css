@@ -64,15 +64,49 @@ footer {
 }
 
 .phoneNumber h6 {
-    font-weight: 900;
+    font-weight: 700;
     font-size: 32px;
     line-height: 43px;
     margin: 0;
 }
 
 .email h6 {
-    font-weight: 900;
+    font-weight: 700;
     font-size: 32px;
     line-height: 43px;
     margin: 0;
+}
+
+@media (max-width: 900px) {
+    .timeToTalk {
+        font-size: 70px !important;
+    }
+
+    .footerPortraitAndName {
+        margin-right: 0;
+        scale: 80%;
+        margin-left: 20%;
+    }
+
+    .portraitImg {
+        width: 125px;
+        height: 125px;
+    }
+
+    .footerName h2 {
+        font-weight: 800;
+    }
+
+    .socialMediaLinks {
+        margin-right: 45px;
+    }
+
+    .phoneNumber h6 {
+        font-size: 28px;
+    }
+
+    .email h6 {
+
+        font-size: 28px;
+    }
 }

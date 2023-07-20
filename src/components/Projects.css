@@ -24,8 +24,8 @@
 }
 
 .overlay {
-    width: 350px;
-    height: 350px;
+    width: 275px;
+    height: 275px;
     background: #173039;
     border-radius: 20px;
     display: flex;
@@ -41,8 +41,8 @@
 }
 
 .projectBackground {
-    width: 100%;
-    height: 200px;
+    width: 275px;
+    height: 275px;
     background: #002F33;
     display: flex;
     position: relative;
@@ -70,7 +70,7 @@
 
 .titleContainer {
     margin-top: 15%;
-    width: 350px;
+    width: 274px;
 }
 
 .link {
@@ -78,24 +78,15 @@
 }
 
 .projectTitle {
+    margin-top: 40px !important;
     font-weight: 700;
     margin-top: 15px;
     color: black;
-
-    &:hover {
-        color: #489cb8;
-        ;
-    }
 }
 
 .projectDescription {
     color: black;
     font-weight: 400;
-
-    &:hover {
-        color: #489cb8;
-        ;
-    }
 }
 
 .tagContainer {
@@ -119,6 +110,11 @@
 }
 
 .gitIcon {
+    height: 35px;
+    text-decoration: none;
+}
+
+.liveIcon {
     height: 35px;
     text-decoration: none;
 }
@@ -173,7 +169,7 @@
     }
 }
 
-@media (min-width: 900px) {
+@media (max-width: 900px) {
     .projectWrap {
         width: 100%;
         justify-items: center;
@@ -185,12 +181,21 @@
     }
 
     .overlay {
-        width: 350px;
-        height: 350px;
+        width: 275px;
+        height: 275px;
     }
 
     .projectBackground {
-        width: 350px;
-        height: 350px;
+        width: 275px;
+        height: 275px;
+    }
+
+    .tagContainer {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 5px;
+        width: 300px;
+        margin-top: 15px;
     }
 }

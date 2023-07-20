@@ -27,19 +27,17 @@ export const ProjectCard = () => {
                             </a>
                         </div>
                         <div className="titleContainer">
-                            <a
+                            <div
                                 className="link"
-                                href={item.netlify}
                                 alt="project landingpage"
-                                target="_blank"
-                                rel="noreferrer">
+                                target="_blank">
                                 <div className="projectTitle">
                                     {item.title}
                                 </div>
                                 <div className="projectDescription">
                                     {item.description}
                                 </div>
-                            </a>
+                            </div>
                             <div className="tagContainer">
                                 {item.tools.map((tag) => (
                                     <div className="tag" key={tag}>
@@ -61,7 +59,7 @@ export const ProjectCard = () => {
                                     </button>
                                 </a>
                                 <a
-                                    className="gitIcon"
+                                    className="liveIcon"
                                     href={item.github}
                                     alt="project landingpage"
                                     target="_blank"

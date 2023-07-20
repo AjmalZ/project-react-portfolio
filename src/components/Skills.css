@@ -28,6 +28,8 @@
     line-height: 32px;
     color: #FFFFFF;
     margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .skillsh3Red {
@@ -57,4 +59,15 @@
     line-height: 0;
     font-weight: 400;
     font-size: 22px;
+}
+
+@media (max-width: 900px) {
+    .skillsBox {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skillInfo {
+        align-items: center;
+    }
 }

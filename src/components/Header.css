@@ -91,3 +91,25 @@
   font-size: 22px;
   line-height: 29px;
 }
+
+@media (max-width: 455px) {
+
+  .headerImg {
+    display: none;
+  }
+
+  .infoBox {
+    width: 100%;
+  }
+
+  .portraitAndName {
+    padding: 0px;
+  }
+
+  .socialMediaLinks {
+    scale: 75%;
+    width: 75%;
+  }
+
+
+}
