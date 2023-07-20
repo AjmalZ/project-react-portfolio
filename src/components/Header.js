@@ -24,7 +24,9 @@ export const Header = () => {
                     <p>
                         Hello and welcome to my portfolio! As a front-end developer, I have a passion for code, design, user-friendly websites and applications. My portfolio showcases my skills and experience in this field.
                         <br />
+                        <br />
                         I always stay up to date with the latest trends and best practices in front-end development. My work is not just about creating a beautiful design, but also ensuring that the user experience is smooth.
+                        <br />
                         <br />
                         Thank you for taking the time to explore my portfolio. I am excited about the opportunity to work with you and bring your vision to life!
                     </p>
