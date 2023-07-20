@@ -83,9 +83,8 @@ footer {
     }
 
     .footerPortraitAndName {
-        margin-right: 0;
+        margin: auto;
         scale: 80%;
-        margin-left: 20%;
     }
 
     .portraitImg {
@@ -94,7 +93,13 @@ footer {
     }
 
     .footerName h2 {
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .footerName h3 {
         font-weight: 800;
+        font-size: 28px;
     }
 
     .socialMediaLinks {
