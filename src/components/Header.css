@@ -116,6 +116,12 @@
 
 @media (max-width: 900px) {
   .headerLogo {
-    scale: 80%;
+    scale: 68%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .socialMediaLinks {
+    scale: 75%;
   }
 }
