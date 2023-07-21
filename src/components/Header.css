@@ -113,3 +113,9 @@
 
 
 }
+
+@media (max-width: 900px) {
+  .headerLogo {
+    scale: 80%;
+  }
+}
