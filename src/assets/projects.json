@@ -70,7 +70,7 @@
         "overlay": "NEW MOVIES",
         "id": "5",
         "image": "https://images2.imgbox.com/b6/24/GPg1uv6h_o.png",
-        "netlify": "https://burgerbot.netlify.app/",
+        "netlify": "https://giorgioajmal.netlify.app",
         "github": "https://github.com/AjmalZ/project-movies",
         "description": "The latest movie releases.",
         "tools": [
@@ -86,8 +86,8 @@
         "overlay": "NEW MUSIC",
         "id": "6",
         "image": "https://images2.imgbox.com/7f/ff/84WmEwQO_o.png",
-        "netlify": "https://burgerbot.netlify.app/",
-        "github": "https://github.com/AjmalZ/project-movies",
+        "netlify": "https://ajmal-music.netlify.app",
+        "github": "https://github.com/AjmalZ/project-music-releases",
         "description": "The latest music releases using Spotify API.",
         "tools": [
             "React",
@@ -148,7 +148,7 @@
         "overlay": "PROJECT AUTH",
         "id": "10",
         "image": "https://images2.imgbox.com/ea/f2/seGhXEMd_o.png",
-        "netlify": "https://ajmal-auth.netlify.app/login",
+        "netlify": "https://ajmal-auth.netlify.app",
         "github": "https://github.com/AjmalZ/project-auth",
         "description": "A fullstack project with both an API in the backend and a front end with a login-form.",
         "tools": [
