@@ -38,8 +38,7 @@ export const Contact = () => {
                 className="linkedin"
                 href="https://www.linkedin.com/in/ajmal-zahir-developer/"
                 target="_blank"
-                rel="noreferrer"
-              >
+                rel="noreferrer">
                 <span />
                 <span />
                 <span />
@@ -52,8 +51,7 @@ export const Contact = () => {
                 className="github"
                 href="https://github.com/AjmalZ"
                 target="_blank"
-                rel="noreferrer"
-              >
+                rel="noreferrer">
                 <span />
                 <span />
                 <span />
@@ -66,8 +64,7 @@ export const Contact = () => {
                 className="envelope"
                 href={ajmalCV}
                 target="_blank"
-                rel="noreferrer"
-              >
+                rel="noreferrer">
                 <span />
                 <span />
                 <span />
