@@ -77,6 +77,12 @@ footer {
     margin: 0;
 }
 
+.cvLogo {
+    margin-top: 25px;
+    height: 50px;
+    width: 50px;
+}
+
 @media (max-width: 900px) {
     .timeToTalk {
         font-size: 70px !important;
@@ -103,7 +109,9 @@ footer {
     }
 
     .socialMediaLinks {
-        margin-right: 45px;
+        margin: 0px;
+        align-items: center;
+        justify-content: center;
     }
 
     .phoneNumber h6 {

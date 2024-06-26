@@ -2,14 +2,15 @@
 /* eslint-disable quotes */
 /* eslint-disable max-len */
 /* eslint-disable indent */
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope as faEnvelopeSolid } from "@fortawesome/free-solid-svg-icons";
-import portrait from "../images/portrait2.jpeg";
-import headerLogo from "../images/headerLogo.svg";
-import "./Header.css";
-import "./SocialMediaLinks.css";
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import portrait from '../images/portrait2.jpeg';
+import headerLogo from '../images/headerLogo.svg';
+import './Header.css';
+import './SocialMediaLinks.css';
+import cvLogo from '../images/cvLogo.png';
+import ajmalCV from '../images/ajmalCV.pdf';
 
 export const Header = () => {
   return (
@@ -72,12 +73,12 @@ export const Header = () => {
               </a>
             </li>
             <li>
-              <a className="envelope" href="mailto:ajmal.zahir@hotmail.com">
+              <a className="envelope" href={ajmalCV} target="_blank" rel="noreferrer">
                 <span />
                 <span />
                 <span />
                 <span />
-                <FontAwesomeIcon icon={faEnvelopeSolid} />
+                <img className="cvLogo" src={cvLogo} alt="cvLogo" />
               </a>
             </li>
           </ul>
