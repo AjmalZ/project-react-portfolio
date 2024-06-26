@@ -1,13 +1,13 @@
 /* eslint-disable linebreak-style */
 /* eslint linebreak-style: ["error", "windows"] */
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-import "./ContactFooter.css";
-import portrait from "../images/portrait.jpg";
-import "./SocialMediaLinks.css";
-import cvLogo from "../images/cvLogo.png";
-import ajmalCV from "../images/ajmalCV.pdf";
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import './ContactFooter.css';
+import portrait from '../images/portrait.jpg';
+import './SocialMediaLinks.css';
+import cvLogo from '../images/cvLogo.png';
+import ajmalCV from '../images/ajmalCV.pdf';
 
 export const Contact = () => {
   return (
