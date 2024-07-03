@@ -12,6 +12,7 @@ export const Skills = () => {
           <div className="code skillInfo">
             <h3 className="skillh3 skillsh3Red">Frontend</h3>
             <p>React</p>
+            <p>TypeScript</p>
             <p>Javascript ES6</p>
             <p>HTML5</p>
             <p>CSS3</p>
@@ -44,8 +45,6 @@ export const Skills = () => {
 
           <div className="upcomming skillInfo">
             <h3 className="skillh3 skillsh3Green">Upcomming</h3>
-            <p>TypeScript</p>
-            <p>React Native</p>
             <p>Python</p>
           </div>
         </div>
