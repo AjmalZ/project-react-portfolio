@@ -7,7 +7,6 @@ import './ContactFooter.css';
 import portrait from '../images/portrait.jpg';
 import './SocialMediaLinks.css';
 import cvLogo from '../images/cvLogo.png';
-import ajmalCV1 from '../images/ajmalCV1.pdf';
 
 export const Contact = () => {
   return (
@@ -62,8 +61,6 @@ export const Contact = () => {
             <li>
               <a
                 className="envelope"
-                href={ajmalCV1}
-                target="_blank"
                 rel="noreferrer">
                 <span />
                 <span />
