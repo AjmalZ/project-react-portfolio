@@ -5,7 +5,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-import portrait from "../images/portrait2.jpeg";
+import portrait from "../images/portrait.png";
 import headerLogo from "../images/headerLogo.svg";
 import "./Header.css";
 import "./SocialMediaLinks.css";
