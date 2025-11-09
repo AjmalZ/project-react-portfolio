@@ -1,11 +1,11 @@
 /* eslint-disable linebreak-style */
 /* eslint linebreak-style: ["error", "windows"] */
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-import "./ContactFooter.css";
-import portrait from "../images/portrait.png";
-import "./SocialMediaLinks.css";
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import './ContactFooter.css';
+import portrait from '../images/portrait.png';
+import './SocialMediaLinks.css';
 
 export const Contact = () => {
   return (
@@ -36,8 +36,7 @@ export const Contact = () => {
                 className="linkedin"
                 href="https://www.linkedin.com/in/ajmal-zahir-developer/"
                 target="_blank"
-                rel="noreferrer"
-              >
+                rel="noreferrer">
                 <span />
                 <span />
                 <span />
@@ -50,8 +49,7 @@ export const Contact = () => {
                 className="github"
                 href="https://github.com/AjmalZ"
                 target="_blank"
-                rel="noreferrer"
-              >
+                rel="noreferrer">
                 <span />
                 <span />
                 <span />
