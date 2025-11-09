@@ -9,8 +9,6 @@ import portrait from "../images/portrait.png";
 import headerLogo from "../images/headerLogo.svg";
 import "./Header.css";
 import "./SocialMediaLinks.css";
-import cvLogo from "../images/cvLogo.png";
-import ajmalCV1 from "../images/ajmalCV1.pdf";
 
 export const Header = () => {
   return (
@@ -70,20 +68,6 @@ export const Header = () => {
                 <span />
                 <span />
                 <FontAwesomeIcon icon={faGithub} />
-              </a>
-            </li>
-            <li>
-              <a
-                className="envelope"
-                href={ajmalCV1}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <span />
-                <span />
-                <span />
-                <span />
-                <img className="cvLogo" src={cvLogo} alt="cvLogo" />
               </a>
             </li>
           </ul>
