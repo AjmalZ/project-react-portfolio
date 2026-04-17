@@ -1,0 +1,40 @@
+.aboutSection {
+  background-color: #f1f1f3;
+  padding: 60px 20px;
+}
+
+.about {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  font-size: 80px;
+  color: #733236;
+  font-weight: 700;
+  margin-bottom: 40px;
+  line-height: 1;
+}
+
+.aboutContent {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.aboutContent p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+  max-width: 760px;
+}
+
+@media (max-width: 768px) {
+  .about h2 {
+    font-size: 48px;
+  }
+
+  .aboutContent p {
+    font-size: 16px;
+  }
+}

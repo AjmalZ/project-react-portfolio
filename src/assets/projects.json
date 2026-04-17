@@ -1,0 +1,206 @@
+[
+    {
+        "title": "KANBAN",
+        "overlay": "KANBAN",
+        "id": "1",
+        "image": "https://thumbs2.imgbox.com/07/30/eltqFKRi_t.png",
+        "netlify": "https://projectkanban.netlify.app/",
+        "github": "https://github.com/AjmalZ/final-project",
+        "description": "Organisera uppgifter i kategorier, tilldela och följ upp framsteg, sätt förfallodatum, redigera detaljer och använd drag-och-släpp. Förenklar uppgiftshantering så att du når dina mål enkelt.",
+        "tools": [
+            "Fullstack",
+            "React",
+            "Redux",
+            "Routs",
+            "CSS",
+            "Tailwind",
+            "Npm",
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "Authentication"
+        ]
+    },
+    {
+        "title": "GUESS WHO GAME",
+        "overlay": "GUESS WHO GAME",
+        "id": "2",
+        "image": "https://thumbs2.imgbox.com/06/fc/7iyBafAt_t.png",
+        "netlify": "https://guesswho-ajmal.netlify.app/",
+        "github": "https://github.com/AjmalZ/project-guess-who",
+        "description": "Gissa vem är ett spel där spelaren ställer ja- eller nej-frågor för att lista ut identiteten på en dold karaktär.",
+        "tools": [
+            "JavaScript ES6",
+            "HTML5",
+            "CSS"
+        ]
+    },
+    {
+        "title": "WEATHER APP",
+        "overlay": "WEATHER APP",
+        "id": "3",
+        "image": "https://images2.imgbox.com/8e/32/y85uPeka_o.png",
+        "netlify": "https://ajmalandantoniasweatherapp.netlify.app/",
+        "github": "https://github.com/AjmalZ/project-weather-app",
+        "description": "En väderapp byggd med JavaScript och Open Weather API. Användaren kan söka på en stad för att visa temperatur, väderbeskrivning, sol-upp/sol-ned och en femdarsprognos. Har även geolokalisering.",
+        "tools": [
+            "JavaScript ES6",
+            "HTML5",
+            "CSS",
+            "API",
+            "Pair-programming"
+        ]
+    },
+    {
+        "title": "BURGERBOT",
+        "overlay": "CHATBOT",
+        "id": "4",
+        "image": "https://images2.imgbox.com/ed/bd/X2DXIaKC_o.png",
+        "netlify": "https://burgerbot.netlify.app/",
+        "github": "https://github.com/AjmalZ/project-chatbot",
+        "description": "En chatbot för att beställa burgare som du kan interagera med. Detta är ett av mina första JS-projekt.",
+        "tools": [
+            "JavaScript ES6",
+            "HTML5",
+            "CSS"
+        ]
+    },
+    {
+        "title": "NEWEST MOVIE RELEASES",
+        "overlay": "NEW MOVIES",
+        "id": "5",
+        "image": "https://images2.imgbox.com/b6/24/GPg1uv6h_o.png",
+        "netlify": "https://giorgioajmal.netlify.app",
+        "github": "https://github.com/AjmalZ/project-movies",
+        "description": "De senaste biofilmerna.",
+        "tools": [
+            "React",
+            "Routs",
+            "API",
+            "CSS",
+            "Pair-programming"
+        ]
+    },
+    {
+        "title": "NEWEST MUSIC RELEASES",
+        "overlay": "NEW MUSIC",
+        "id": "6",
+        "image": "https://images2.imgbox.com/7f/ff/84WmEwQO_o.png",
+        "netlify": "https://ajmal-music.netlify.app",
+        "github": "https://github.com/AjmalZ/project-music-releases",
+        "description": "De senaste musiksläppen via Spotify API.",
+        "tools": [
+            "React",
+            "Routs",
+            "API",
+            "CSS",
+            "Pair-programming"
+        ]
+    },
+    {
+        "title": "HAPPY THOUGHTS",
+        "overlay": "HAPPY THOUGHTS",
+        "id": "7",
+        "image": "https://images2.imgbox.com/d2/da/SGHTJ9eu_o.png",
+        "netlify": "https://ajmal-happythoughts.netlify.app/",
+        "github": "https://github.com/AjmalZ/project-happy-thoughts-api",
+        "description": "Min egen version av Twitter. Med ett eget backend där alla meddelanden sparas.",
+        "tools": [
+            "React",
+            "Fullstack",
+            "MongoDB",
+            "Express",
+            "API",
+            "CSS"
+        ]
+    },
+    {
+        "title": "TO DO",
+        "overlay": "TO DO APP",
+        "id": "8",
+        "image": "https://images2.imgbox.com/74/e4/2fe6Rw0b_o.png",
+        "netlify": "https://todo-ajmal.netlify.app/",
+        "github": "https://github.com/AjmalZ/project-todos",
+        "description": "En enkel att-göra-app byggd med React och Redux.",
+        "tools": [
+            "React",
+            "Redux",
+            "CSS"
+        ]
+    },
+    {
+        "title": "THE MAZE",
+        "overlay": "THE MAZE",
+        "id": "9",
+        "image": "https://images2.imgbox.com/70/a4/BKzeLhV5_o.png",
+        "netlify": "https://splendorous-frangipane-378809.netlify.app/",
+        "github": "https://github.com/AjmalZ/project-labyrinth",
+        "description": "Ett labyrintspel med 8-bitars tema byggt i React, Redux och ett API.",
+        "tools": [
+            "React",
+            "Redux",
+            "Mob programming",
+            "CSS"
+        ]
+    },
+    {
+        "title": "PROJECT AUTH",
+        "overlay": "PROJECT AUTH",
+        "id": "10",
+        "image": "https://images2.imgbox.com/ea/f2/seGhXEMd_o.png",
+        "netlify": "https://ajmal-auth.netlify.app",
+        "github": "https://github.com/AjmalZ/project-auth",
+        "description": "Ett fullstackprojekt med både ett API i backend och ett frontend med inloggningsformulär.",
+        "tools": [
+            "React",
+            "Redux",
+            "Fullstack",
+            "MongoDB",
+            "Express",
+            "API",
+            "CSS"
+        ]
+    },
+    {
+        "title": "JAVASCRIPT QUIZ",
+        "overlay": "JAVASCRIPT QUIZ",
+        "id": "11",
+        "image": "https://images2.imgbox.com/92/68/xImbYXnB_o.png",
+        "netlify": "https://javascript-redux-quiz.netlify.app/",
+        "github": "https://github.com/AjmalZ/project-redux-quiz",
+        "description": "Ett JavaScript-quiz. Mob-programmeringsprojekt med Redux.",
+        "tools": [
+            "React",
+            "Redux",
+            "Routs",
+            "Mob programming",
+            "CSS"
+        ]
+    },
+    {
+        "title": "GITHUB",
+        "overlay": "GITHUB",
+        "id": "12",
+        "image": "https://thumbs2.imgbox.com/73/ed/67kSTciC_t.png",
+        "netlify": "https://github.com/AjmalZ",
+        "github": "https://github.com/AjmalZ",
+        "description": "Kolla in mitt GitHub för fler projekt.",
+        "tools": [
+            "React",
+            "Redux",
+            "JavaScript ES6",
+            "CSS",
+            "MongoDB",
+            "Express",
+            "Node.js",
+            "Npm",
+            "Routs",
+            "Mob programming",
+            "Pair-programming",
+            "Fullstack",
+            "Frontend",
+            "Backend",
+            "API"
+        ]
+    }
+]

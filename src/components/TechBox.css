@@ -1,0 +1,67 @@
+.techBox {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: space-evenly;
+    background: #9cb2a5;
+}
+
+.techText {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 108px;
+    display: flex;
+    align-items: center;
+    color: #733236;
+}
+
+.techInfo {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    width: 49%;
+}
+
+.js {
+    background: #fbb03b;
+}
+
+.react {
+    background: #ec7b23;
+}
+
+.mob {
+    background: #ccecf8;
+}
+
+.hl-1 { background: #ec7b23; color: white; padding: 0 4px; } /* Orange */
+.hl-2 { background: #fbb03b; color: white; padding: 0 4px; } /* Yellow */
+.hl-3 { background: #ccecf8; color: #333; padding: 0 4px; }  /* Light Blue */
+.hl-4 { background: #733236; color: white; padding: 0 4px; } /* Maroon */
+.hl-5 { background: #4a5d51; color: white; padding: 0 4px; } /* Dark Sage */
+.hl-6 { background: #d48c8c; color: white; padding: 0 4px; } /* Muted Rose */
+.hl-7 { background: #a8dadc; color: #333; padding: 0 4px; }  /* Powder Blue */
+.hl-8 { background: #0078d4; color: white; padding: 0 4px; } /* PowerShell Blue */
+
+@media (max-width: 900px) {
+    .techInfo {
+        width: 100%;
+    }
+
+    .techText h2 {
+        margin: 0;
+    }
+
+    .techBox {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .techInfo {
+        width: 90%;
+        font-size: 21px;
+    }
+}
